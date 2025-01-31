@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angela Adisa - Portfolio</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://use.fontawesome.com/a71e5ce1d6.js"></script>
+</head>
+
+<body>
+    <nav>
+        <p>Angela Adisa</p>
+
+        <div style="display: flex;">
+            <ul>
+                <li><a id="home-anchor" href="#">Home</a></li>
+                <li><a id="exp-anchor" href="#experience">Experience</a></li>
+                <li><a id="proj-anchor" href="#projects">Projects</a></li>
+                <li><a id="stack-anchor" href="#tech-stack">Tech Stack</a></li>
+                <li><a id="comm-anchor" href="#communities">Communities</a></li>
+                <li><a id="edu-anchor" href="#education">Education</a></li>
+            </ul>
+            <button class="mode theme-toggle-btn" onClick="toggleTheme()">
+                <i id="icon" class="fa fa-moon-o" aria-hidden="true"></i>
+            </button>
+
+            <button class="burger" id="burger">
+                &#9776
+            </button>
+        </div>
+
+    </nav>
+
+    <div class="profile">
+        <img src="assets/img/profile_potrait.png" alt="">
+        <div class="bio-text">
+            <h2>About Me</h2><span></span>
+            <p>Full-Stack Web Developer | QA Specialist | Passionate About Cloud & DevOps |
+            </p>
+            <p> As a software developer, I bring an analytical mindset and passion for crafting efficient solutions with strong coding skills and adaptability to new technologies. I also thrive in a fast-paced environment where I’m committed to code quality and continuous learning and eager to contribute to innovative projects to help me grow in my software development career.
+
+            </p>
+
+            <div class="social-media">
+                <i class="fa fa-linkedin" aria-hidden="true"><a href="https://ke.linkedin.com/in/angela-adisa/"
+                    target="_blank" rel="noopener">LinkedIn</a></i>
+                <i class="fa fa-github" aria-hidden="true"><a href="https://github.com/Adisa-Angela" target="_blank"
+                        rel="noopener">GitHub</a></i>
+                <i class="fa fa-download" aria-hidden="true"><a
+                        href="https://waynegakuo.netlify.app/assets/resume/Angela_Adisa_Resume.pdf" target="_blank"
+                        rel="noopener">Résumé</a></i>
+                <i class="fa fa-envelope" aria-hidden="true"><a href="mailto:ambengeangela@gmail.com" target="_blank"
+                        rel="noopener">Email Me</a></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="featured-videos-section">
+        <h2>Media Feature</h2><span></span>
+        <div class="featured-videos">
+            <div class="featured">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/EThZG5-mUcQ?si=J_gwmuYcBb_Y0eeP&amp;start=5723" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="featured">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/BJrGaHceuT0?si=GsjQ4LfjKlUcm-3B&amp;start=17" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="featured">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dsELUaE49F4?si=dc2T7NaSgGbX8MNX&amp;start=29" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="experience" id="experience">
+        <h2>Experience</h2><span></span>
+
+        <div class="experience-container">
+            <div class="exp">
+            <span class="role"><i class="fa fa-laptop" aria-hidden="true"></i>
+                Quality Assurance Engineer</span>
+                <span class="company"><i class="fa fa-building-o" aria-hidden="true"></i>
+                Echo Mobile, Nairobi - Kenya</span>
+                <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                Feb 2023 - April 2024</span>
+                <span class="date">
+                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                UI Testing, API Testing, BugTracking & Documentation
+            </span>
+                <p class="description">I led the QA process for the migration from Echo 1.0 to Echo 2.0, ensuring comprehensive testing of all
+                    features and functionalities. Collaborated closely with developers to resolve 90% of reported
+                    bugs,ensuring they were successfully retested and approved.</p><br>
+            </div>
+
+            <div class="exp">
+            <span class="role"><i class="fa fa-laptop" aria-hidden="true"></i>
+                ICT Supervisor</span>
+                <span class="company"><i class="fa fa-building-o" aria-hidden="true"></i>
+                Cinque Global, Kakamega-Kenya</span>
+                <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                Jan 2022 - Jan 2023</span>
+                <span class="date">
+                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                HTML,CSS, JavaScript
+            </span>
+                <p class="description"> I implemented a robust inventory management system, ensuring that all ICT assets were accurately tracked and documented, reducing discrepancies by 30%
+                    and also coordinated with suppliers and stakeholders, ensuring project milestones were met on time, achieving a 95% on-time project delivery rate.</p><br>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="projects" id="projects">
+        <h2>Notable Projects</h2><span></span>
+        <div class="project-section">
+
+            <div class="content">
+                <div class="echo-mobile background bg-image">
+                </div>
+                <div class="footer">
+                    <h3>Echo Mobile</h3>
+                    <p>Echo is a cloud-based web platform connects to toll-free SMS,
+                         voice (IVR) and USSD channels to automate personalized communications
+                          at scale with your most important stakeholders. From these, the platform provides actionable data to empower insights and decisions.
+
+                    </p>
+                    <a href="https://echomobile.io/" target="_blank" rel="noopener">Check it out</a>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="mwanga background bg-image">
+                </div>
+                <div class="footer">
+                    <h3>Mwanga</h3>
+                    <p>Mwanga is a dashboard and a mobile application to be used by community healthworkers and NGOs in
+                        empowering their efforts to improve child healthcare by identifying delayed milestones cases and
+                        tracking them. In a diverse team we used NextJS and Kotlin to build the user interface of the dashboard
+                        and mobile application. The backend of the system was built in python3 using Django REST framework.</p>
+                    <a href="https://qemer-info-website.netlify.app/" target="_blank" rel="noopener">Check it out</a>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="gameHub background bg-image">
+                </div>
+                <div class="footer">
+                    <h3>Game Hub</h3>
+                    <p>GameHub is a video game discovery web app that helps you find new and interesting games to play. 
+                        With GameHub, you can search for games by platform, genre, and more.</p>
+                    <a href="https://game-hub-angieambengegmailcoms-projects.vercel.app/" target="_blank" rel="noopener">Check it out</a>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="testing background bg-image">
+                </div>
+                <div class="footer">
+                    <h3>Restful-Booker Tests </h3>
+                    <p>The testing is performed using Postman to automate test cases that cover authentication flows, CRUD
+                        operations for bookings, and error scenarios. Key aspects tested include verifying correct API responses,
+                        validating data consistency, testing edge cases, and ensuring the platform performs under varying loads.
+                        The aim is to ensure that the API is reliable, secure, and able to handle different types of requests at the
+                        same time.</p>
+                    <a href="https://documenter.getpostman.com/view/27399888/2sAYQdjq9y" target="_blank" rel="noopener">Check it out</a>
+                </div>
+            </div>
+
+         
+        </div>
+    </div>
+
+    <div class="tech-stack" id="tech-stack">
+        <h2>Tech Stack</h2><span></span>
+
+        <div class="stack-imgs">
+            <img src="assets/img/html5.svg" alt="HTML 5">
+            <img src="assets/img/css.svg" alt="CSS">
+            <img src="assets/img/python-svgrepo-com.svg" alt="Python">
+            <img src="assets/img/javascript.svg" alt="JavaScript">
+            <img src="assets/img/react-svgrepo-com.svg" alt="JavaScript">
+            <img src="assets/img/typescript.svg" alt="TypeScript">
+            <img src="assets/img/linux-svgrepo-com.svg" alt="Linux">
+            <img src="assets/img/adobe-illustrator-svgrepo-com.svg" alt="Adobe Illustrator">
+
+
+            <img src="assets/img/googlecloud.svg" alt="Google Cloud">
+        </div>
+    </div>
+
+    <div class="communities" id="communities">
+        <h2>Communities</h2><span></span>
+
+        <div class="communities-details">
+            <div class="details angular-kenya">
+                <img class="logos" src="assets/img/codeHiveX.png" alt="Angular Kenya Logo">
+                <span class="role">codeHiveX - AkiraChix</span>
+                <p class="description">CodeHiveX, is an exclusive, co-led alumni community at AkiraChix, which aims to foster continued learning 
+                    and career growth within a thriving alumni community. 
+                    CodeHiveX brings together individuals at various stages of their careers, from junior software developers 
+                    to those who started with the program in 2019 and have advanced to mid- and senior-level positions. 
+                    This community not only advocates for the hiring of female tech talent but also contributes to 
+                    the tech industry by participating in interview panels.</p>
+                
+
+            </div>
+         
+
+        
+        </div>
+    </div>
+
+    <div class="education" id="education">
+        <h2>Education</h2><span></span>
+        <div class="edu">
+            <span class="course"><i class="fa fa-book" aria-hidden="true"></i>
+                BSc. information Technology</span>
+            <span class="school"><i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                Technical University of Mombasa</span>
+            <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                    Sep 2016 - Dec 2021</span>
+            <p class="description">During my four years at the Technical University of Mombasa, 
+                I actively engaged in various extracurricular activities, including community give-back programs and problem-solving initiatives. 
+                These efforts were focused on addressing real-world challenges by developing user-centered solutions .</p>
+        </div>
+
+        <div class="edu">
+            <span class="course"><i class="fa fa-book" aria-hidden="true"></i>
+                Diploma in information Technology</span>
+            <span class="school"><i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                AkiraChix - Nairobi,Kenya</span>
+            <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                Jan 2023 - Dec 2023</span>
+            <p class="description">During a one-year scholarship, I was a beneficiary of the CodeHive program at Akirachix,
+                 which is designed to equip participants with coding skills while providing hands-on experience 
+                 across all areas of software development.</p>
+        </div>
+    </div>
+
+
+    <footer>
+        <span class="footer_desc">Created by <a class="git_link" href="https://github.com/Adisa-Angela"
+                target="_blank" rel="noopener">Angela Adisa</a></span>
+    </footer>
+</body>
+<script src="js/index.js"></script>
+
+</html>
