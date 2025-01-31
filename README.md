@@ -1,11 +1,18 @@
-# Personal Portfolio
+# Portfolio
 
-### Light Mode
-![Portfolio Screenshot-Light Mode](/assets/img/portfolio.png)
+This is my portfolio showcasing my projects, skills, and experience.
 
-### Dark Mode
-![Portfolio Screenshot-Dark Mode](/assets/img/dark_portfolio.png)
+## Features
+- Responsive design
+- Projects showcase
+- Contact information
 
-This is a simple & responsive personal portfolio that showcases one's but not limited to experiences, education, projects, community work, profile and technical stack. This project is Open Sourced & therefore feel free to clone the repo and create your own portfolio and edit it to your liking. Enjoy! :sparkles: :tada: :octocat:
+## Technologies Used
+- HTML
+-  CSS
+-  JavaScript
 
-Done with :heart: by @waynegakuo
+## How to Run
+```sh
+git clone https://github.com/your-username/portfolio.git
+cd portfolio
